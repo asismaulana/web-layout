@@ -1,0 +1,52 @@
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+    border: solid rgb(81, 215, 14);
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(30, 240, 240);
+}
+.header{
+    background-color: rgb(43, 226, 52);
+    height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container{
+    background-color: #00d9ffcb;
+    padding: 10px;
+    color: rgb(35, 21, 231);
+    text-indent: 25;
+}
+.footer{
+    background-color: rgb(37, 231, 183);
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    font-size: 50px;
+
+}
+p{
+    overflow: auto;
+}
+p{
+    overflow: scroll;
+}
+.float-rigth{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.sisi-kanan{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 10px;
+}
+body{
+    background-image: url(pe.jpg);
+}
+

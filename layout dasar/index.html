@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Dasar</title>
+    <style>
+        .header{
+            background-color: #eee;
+            min-height: 50px;
+            text-align: center;          
+        }
+        .content{
+            background-color: #ddd;
+            min-height: 500px;
+            overflow: auto;
+        }
+        .footer{
+            background-color: #ccc;
+            min-height: 50px;
+        }
+        .container{
+            width: 800px;
+            margin: auto;
+            
+        }
+        .menu ul{
+            padding: 0;
+        }
+        .menu ul li{
+            display: inline-block;
+        }
+        .menu ul li a{
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .logo img{
+             width: 100px;
+        }
+        .thumbanail{
+            background-color: rgb(131, 139, 141);
+            text-align: center;
+            padding: 10px;
+            width: 225px;
+            margin: 10px;
+            float: left;
+        }
+        .thumbanail img{
+            width: 100%;
+        }
+        .tombol {
+            background-color: #f21515; 
+            border-radius: 15px;  
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .tombol:hover{
+            border-radius: 15px;
+            background-color: white;
+            color: red;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-color: red;
+            box-shadow: 0 0 15px 15px red;
+            transition: all 700ms ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+           <img src="m.jpg" alt="logo produk">
+        
+     </div>
+    <div class="menu">
+       <ul>
+           <li><a href="">Home</a></li>
+           <li><a href="">About</a></li>
+           <li><a href="">content</a></li>
+      </ul>
+     </div>    
+   </div>
+
+   <div class="content">
+        <h2>our product</h2>
+        <div class="thumbanail"> 
+            <img src="https://th.bing.com/th/id/OIP.ZUPrfwFNr2QZ6AliPGhOvAHaFj?w=244&h=183&c=7&r=0&o=5&dpr=1.5&pid=1.7"alt="">
+            <h2>product 1</h2>
+            <p>Rp 200.000</p>
+           <button class="tombol"><a href=""></a>detail</button>
+        </div>
+        <div class="thumbanail"> 
+            <img src="https://th.bing.com/th/id/OIP.ZUPrfwFNr2QZ6AliPGhOvAHaFj?w=244&h=183&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="">
+            <h2>product 2</h2>
+            <p>Rp 200.000</p>
+            <button class="tombol" a href=""></a>detail</button>
+        </div>
+        <div class="thumbanail"> 
+            <img src="https://th.bing.com/th/id/OIP.ZUPrfwFNr2QZ6AliPGhOvAHaFj?w=244&h=183&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="">
+            <h2>product 3</h2>
+            <p>Rp 200.000</p>
+            <button class="tombol"><a href=""></a>detail</button>
+        </div>
+        <div class="thumbanail"> 
+            <img src="https://th.bing.com/th/id/OIP.7oe50bz2hSUyuNeTPuAYDwHaEK?rs=1&pid=ImgDetMain" alt="">
+            <h2>product 4</h2>
+            <p>Rp 50.000</p>
+            <button class="tombol"><a href=""></a>detail</button>
+        </div>
+        <div class="thumbanail"> 
+            <img src="https://th.bing.com/th/id/OIP.7oe50bz2hSUyuNeTPuAYDwHaEK?rs=1&pid=ImgDetMain" alt="">
+            <h2>product 5</h2>
+            <p>Rp 50.000</p>
+            <button class="tombol"><a href=""></a>detail</button>
+        </div><div class="thumbanail"> 
+            <img src="https://th.bing.com/th/id/OIP.7oe50bz2hSUyuNeTPuAYDwHaEK?rs=1&pid=ImgDetMain" alt="">
+            <h2>product 6</h2>
+            <p>Rp 50.000</p>
+            <button class="tombol"><a href=""></a>detail</button>
+        </div>
+   </div>
+    <div class="footer">
+         <p>Copyright 2024 my page</p>
+    </div>
+   </div>
+</body>
+</html>
